@@ -12,5 +12,5 @@
     "util-io": "~1.3.0"
   },
   "license": "MIT",
-  "main": "lib/readify.js"
+  "main": "lib/spawnify.js"
 }
