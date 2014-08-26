@@ -5,7 +5,7 @@ Create new process in node.
 ## Install
 
 ```
-npm i readify --save
+npm i spawnify --save
 ```
 
 ## How to use?
