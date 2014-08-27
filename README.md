@@ -13,8 +13,12 @@ npm i spawnify --save
 ```js
 var spawnify = require('spawnify');
 
-spawnify('ls -lha', {cwd: __dirname}, function(json) {
-    console.log(json.stdout, json.stderr, json.path);
+spawnify('ls -lha', {cwd: __dirname}, function(error, json) {
+    var stdout  = json.stdout,
+        stderr  = json.stderr,
+        path    = json.path;
+    
+    console.log(error, stdout, stderr, path);
 });
 ```
 
