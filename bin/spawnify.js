@@ -15,6 +15,8 @@
     
     if (command)
         spawnify(command, function(error, json) {
-            console.log(json);
+            var str = JSON.stringify(json);
+            
+            console.log(str);
         });
 })();
