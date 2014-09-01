@@ -14,5 +14,8 @@
     "win32": "~0.9.4"
   },
   "license": "MIT",
-  "main": "lib/spawnify.js"
+  "main": "lib/spawnify.js",
+  "bin": {
+    "spawnify": "bin/spawnify.js"
+  }
 }
