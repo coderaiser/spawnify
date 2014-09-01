@@ -15,7 +15,8 @@
     
     if (command)
         spawnify(command, function(error, json) {
-            var str = JSON.stringify(json);
+            var str = JSON.stringify(json)
+                        .replace('\\', '\\\\');
             
             console.log(str);
         });
