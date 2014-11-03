@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "glob": "~4.0.5",
-    "util-io": "~1.4.0",
+    "util-io": "~1.6.0",
     "win32": "~0.9.4"
   },
   "license": "MIT",
