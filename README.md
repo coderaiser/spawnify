@@ -1,6 +1,6 @@
 # Spawnify
 
-Create new process in node.
+Create new processes, change directories, auto switch between spawn and exec.
 
 ## Install
 
@@ -12,14 +12,24 @@ npm i spawnify --save
 
 ```js
 var spawnify = require('spawnify');
+    spawn   = spawnify('ls -lha', {cwd: __dirname});
 
-spawnify('ls -lha', {cwd: __dirname}, function(error, json) {
-    var stdout  = json.stdout,
-        stderr  = json.stderr,
-        path    = json.path;
-    
-    console.log(error, stdout, stderr, path);
+spawn.on('error', function(error) {
+    console.log(error);
 });
+
+spawn.on('data', function(data) {
+    console.log(data);
+});
+
+spawn.on('cd', function(path) {
+    console.log('directory was changed', path);
+});
+
+spawn.on('close', function() {
+    console.log('process closed');
+});
+
 ```
 
 ## License
