@@ -22,7 +22,7 @@ spawn.on('data', function(data) {
     console.log(data);
 });
 
-spawn.on('cd', function(path) {
+spawn.on('path', function(path) {
     console.log('directory was changed', path);
 });
 
