@@ -1,3 +1,9 @@
+2014.11.4, v1.4.0
+
+feature:
+- (spawnify) event: cd -> path
+
+
 2014.11.3, v1.3.0
 
 feature:
