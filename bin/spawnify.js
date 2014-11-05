@@ -3,19 +3,30 @@
 (function() {
     'use strict';
     
-    var spawnify    = require('../'),
+    var spawn,
+        spawnify    = require('../'),
         slice       = [].slice.bind(process.argv),
-        argv        = slice(),
-        command     = '';
-        
-        argv.shift();
-        argv.shift();
-        
+        argv        = slice(2),
         command     = argv.join(' ');
     
-    if (command)
-        spawnify(command, function(error, json) {
-            var str = JSON.stringify(json);
-            console.log(str);
+    if (!command) {
+        console.log('spawnify <command>');
+    } else {
+        spawn = spawnify(command);
+        spawn.on('data', function(data) {
+            console.log(data);
         });
+        
+        spawn.on('error', function(error) {
+            console.error(error.message);
+        });
+        
+        spawn.on('path', function() {
+            
+        });
+        
+        spawn.on('end', function() {
+            
+        });
+    }
 })();
