@@ -1,3 +1,12 @@
+2014.11.13, v1.5.0
+
+fix:
+- (spawnify) add nextTick
+
+feature:
+- (spawnify) rm addNewLine
+
+
 2014.11.13, v1.4.3
 
 feature:
