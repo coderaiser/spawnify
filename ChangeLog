@@ -1,3 +1,10 @@
+2014.11.13, v1.4.3
+
+feature:
+- (spawnify) set: add arguments check
+- (gitignore) add npm-debug.log
+
+
 2014.11.5, v1.4.2
 
 fix:
