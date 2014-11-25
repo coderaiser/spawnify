@@ -21,12 +21,8 @@
             console.error(error.message);
         });
         
-        spawn.on('path', function() {
-            
-        });
-        
-        spawn.on('exit', function() {
-            
+        spawn.on('close', function() {
+            spawn = null;
         });
     }
 })();
