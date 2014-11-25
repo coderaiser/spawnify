@@ -25,7 +25,7 @@
             
         });
         
-        spawn.on('end', function() {
+        spawn.on('exit', function() {
             
         });
     }

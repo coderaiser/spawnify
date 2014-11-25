@@ -26,7 +26,7 @@ spawn.on('path', function(path) {
     console.log('directory was changed', path);
 });
 
-spawn.on('close', function() {
+spawn.on('exit', function() {
     console.log('process closed');
 });
 
