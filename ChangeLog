@@ -1,3 +1,9 @@
+2014.11.25, v1.6.0
+
+feature:
+- (spawnify) on: close -> exit
+
+
 2014.11.24, v1.5.1
 
 feature:
