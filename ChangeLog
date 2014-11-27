@@ -1,3 +1,9 @@
+2014.11.27, v1.8.0
+
+feature:
+- (spawnify) add newLine to node errors
+
+
 2014.11.25, v1.7.0
 
 feature:
