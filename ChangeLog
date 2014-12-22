@@ -1,3 +1,9 @@
+2014.12.22, v1.8.2
+
+feature:
+- (spawnify) rm util-io
+
+
 2014.12.12, v1.8.1
 
 feature:
