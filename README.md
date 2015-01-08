@@ -11,7 +11,7 @@ npm i spawnify --save
 ## How to use?
 
 ```js
-var spawnify = require('spawnify');
+var spawnify = require('spawnify'),
     spawn   = spawnify('ls -lha', {cwd: __dirname});
 
 spawn.on('error', function(error) {
