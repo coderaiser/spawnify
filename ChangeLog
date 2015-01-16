@@ -1,3 +1,9 @@
+2015.01.16, v1.8.6
+
+fix:
+- (spawnify) onMessage: add "`" to symbolsExec
+
+
 2015.01.16, v1.8.5
 
 fix:
