@@ -24,6 +24,13 @@ spawn.on('data', function(data) {
 });
 
 /* not mandatory */
+spawn.on('start', function() {
+    console.log('process has been started', path);
+    // kill process after start
+    spawn.kill();
+});
+
+/* not mandatory */
 spawn.on('path', function(path) {
     console.log('directory was changed', path);
 });

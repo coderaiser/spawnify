@@ -22,6 +22,7 @@
         });
         
         spawn.on('close', function() {
+            console.log('closed');
             spawn = null;
         });
     }
