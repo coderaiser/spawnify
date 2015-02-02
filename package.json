@@ -9,7 +9,6 @@
     "url": "git://github.com/coderaiser/spawnify.git"
   },
   "dependencies": {
-    "checkup": "~1.0.1",
     "glob": "~4.3.2",
     "try-catch": "~1.0.0",
     "win32": "~0.9.4"
