@@ -1,3 +1,9 @@
+2015.02.02, v1.10.2
+
+feature:
+- (spawnify) getRegStrEnd: simplified data
+
+
 2015.01.20, v1.10.1
 
 fix:
