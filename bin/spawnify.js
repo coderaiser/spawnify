@@ -5,8 +5,7 @@
     
     var spawn,
         spawnify    = require('../'),
-        slice       = [].slice.bind(process.argv),
-        argv        = slice(2),
+        argv        = process.argv.slice(2),
         command     = argv.join(' ');
     
     if (!command) {
