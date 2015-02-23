@@ -1,3 +1,10 @@
+2015.02.23, v1.10.5
+
+feature:
+- (spawnify) rm bind
+- (package) glob v4.4.0
+
+
 2015.02.17, v1.10.4
 
 fix:
