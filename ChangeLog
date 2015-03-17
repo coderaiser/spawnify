@@ -1,3 +1,13 @@
+2015.03.17, v1.10.8
+
+fix:
+- (spawnify) emit: close, exit more than once
+
+feature:
+- (package) glob v5.0.3
+- (package) v1.10.7
+
+
 2015.03.17, v1.10.7
 
 fix:
