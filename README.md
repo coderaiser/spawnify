@@ -25,7 +25,7 @@ spawn.on('data', function(data) {
 
 /* not mandatory */
 spawn.on('start', function() {
-    console.log('process has been started', path);
+    console.log('process has been started');
     // kill process after start
     spawn.kill();
 });
