@@ -1,6 +1,6 @@
 {
   "name": "spawnify",
-  "version": "1.10.9",
+  "version": "2.0.0",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Create new processes, change directories, auto switch between spawn and exec",
   "homepage": "http://github.com/coderaiser/spawnify",

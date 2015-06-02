@@ -1,3 +1,10 @@
+2015.06.02, v2.0.0
+
+feature:
+- (spawnify) add getHome
+- (spawnify) add support of "~" and "." directory in options.cwd
+
+
 2015.05.21, v1.10.9
 
 fix:
