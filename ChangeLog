@@ -1,3 +1,9 @@
+2015.08.19, v2.0.1
+
+fix:
+- fix(spawnify) do not emit close and exit when could not create child
+
+
 2015.06.02, v2.0.0
 
 feature:
