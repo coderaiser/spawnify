@@ -1,3 +1,9 @@
+2015.08.19, v2.0.2
+
+fix:
+- fix(spawnify) no exit, close events when wrong path of child process dir
+
+
 2015.08.19, v2.0.1
 
 fix:
