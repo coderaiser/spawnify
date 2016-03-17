@@ -11,6 +11,7 @@
   "dependencies": {
     "glob": "~7.0.0",
     "try-catch": "~1.0.0",
+    "untildify": "~2.1.0",
     "win32": "~0.9.4"
   },
   "license": "MIT",
