@@ -1,3 +1,11 @@
+2016.11.15, v3.0.0
+
+feature:
+- (package) ~ -> ^
+- (package) win32 v1.0.0
+- (spawnify) es2015-ify
+
+
 2016.09.21, v2.3.4
 
 feature:
