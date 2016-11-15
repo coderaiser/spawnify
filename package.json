@@ -4,6 +4,13 @@
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Create new processes, change directories, auto switch between spawn and exec",
   "homepage": "http://github.com/coderaiser/spawnify",
+  "scripts": {
+    "lint": "eslint lib",
+    "6to5": "buble lib -o legacy",
+    "build": "redrun 6to5 legacy",
+    "legacy": "echo \"module.exports = require('./spawnify');\" > legacy/index.js",
+    "wisdom": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/spawnify.git"
@@ -19,5 +26,9 @@
   "main": "lib/spawnify.js",
   "bin": {
     "spawnify": "bin/spawnify.js"
+  },
+  "devDependencies": {
+    "buble": "^0.14.2",
+    "eslint": "^3.9.1"
   }
 }
