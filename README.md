@@ -51,7 +51,7 @@ spawn.on('exit', function() {
 In old `node.js` environments that not fully supports `es2015`, `spawnify` could be used with:
 
 ```js
-var win = require('spawnify/legacy');
+var spawnify = require('spawnify/legacy');
 ```
 
 ## License
