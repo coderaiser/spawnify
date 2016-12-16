@@ -28,7 +28,7 @@
     "spawnify": "bin/spawnify.js"
   },
   "devDependencies": {
-    "buble": "^0.14.2",
+    "buble": "^0.15.1",
     "eslint": "^3.9.1"
   }
 }
