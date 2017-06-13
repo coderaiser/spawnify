@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "buble": "^0.15.1",
-    "eslint": "^3.9.1"
+    "eslint": "^4.0.0"
   }
 }
