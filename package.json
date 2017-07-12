@@ -27,7 +27,6 @@
     "win32": "^1.0.0"
   },
   "devDependencies": {
-    "buble": "^0.15.1",
     "eslint": "^4.0.0"
   }
 }
