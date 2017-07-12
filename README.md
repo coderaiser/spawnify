@@ -46,14 +46,6 @@ spawn.on('exit', function() {
 });
 ```
 
-## Environments
-
-In old `node.js` environments that not fully supports `es2015`, `spawnify` could be used with:
-
-```js
-var spawnify = require('spawnify/legacy');
-```
-
 ## License
 
 MIT

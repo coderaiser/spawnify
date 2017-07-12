@@ -5,15 +5,19 @@
   "description": "Create new processes, change directories, auto switch between spawn and exec",
   "homepage": "http://github.com/coderaiser/spawnify",
   "scripts": {
-    "lint": "eslint lib",
-    "6to5": "buble lib -o legacy",
-    "build": "redrun 6to5 legacy",
-    "legacy": "echo \"module.exports = require('./spawnify');\" > legacy/index.js",
-    "wisdom": "npm run build"
+    "lint": "eslint lib"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/spawnify.git"
+  },
+  "license": "MIT",
+  "main": "lib/spawnify.js",
+  "bin": {
+    "spawnify": "bin/spawnify.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   },
   "dependencies": {
     "glob": "^7.1.0",
@@ -21,11 +25,6 @@
     "try-catch": "^1.0.0",
     "untildify": "^2.1.0",
     "win32": "^1.0.0"
-  },
-  "license": "MIT",
-  "main": "lib/spawnify.js",
-  "bin": {
-    "spawnify": "bin/spawnify.js"
   },
   "devDependencies": {
     "buble": "^0.15.1",
