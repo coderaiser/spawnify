@@ -23,7 +23,7 @@
     "glob": "^7.1.0",
     "tildify": "^1.2.0",
     "try-catch": "^1.0.0",
-    "untildify": "^2.1.0",
+    "untildify": "^3.0.2",
     "win32": "^1.0.0"
   },
   "devDependencies": {
