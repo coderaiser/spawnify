@@ -41,7 +41,7 @@ spawn.on('close', () => {
 });
 
 /* not mandatory */
-spawn.on('exit', function() {
+spawn.on('exit', () => {
     console.log('process closed');
 });
 ```
