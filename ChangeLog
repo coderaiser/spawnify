@@ -1,3 +1,11 @@
+2018.11.14, v5.0.0
+
+feature:
+- (package) win32 v3.0.0
+- (package) eslint v5.9.0
+- (package) drop support of node < 8
+
+
 2018.05.31, v4.0.5
 
 feature:
