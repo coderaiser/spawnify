@@ -3,11 +3,16 @@
         "node": true
     },
     "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module"
+        "ecmaVersion": 2018,
     },
     "rules": {
         "indent": ["error", 4]
     },
-  "extends": ["eslint:recommended"]
+    "extends": [
+        "eslint:recommended",
+        "plugin:node/recommended"
+    ],
+    "plugins": [
+        "node"
+    ]
 }

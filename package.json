@@ -17,7 +17,7 @@
     "spawnify": "bin/spawnify.js"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.3.0"
   },
   "dependencies": {
     "glob": "^7.1.0",
@@ -27,6 +27,7 @@
     "win32": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.0.0"
+    "eslint": "^4.0.0",
+    "eslint-plugin-node": "^8.0.0"
   }
 }
