@@ -29,5 +29,8 @@
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-plugin-node": "^9.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
