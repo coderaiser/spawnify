@@ -1,3 +1,12 @@
+2019.09.21, v6.0.0
+
+feature:
+- (spawnify) drop support of node < 10
+- (spawnify) madrun
+- (package) win32 v4.0.0
+- (package) eslint v6.4.0
+
+
 2019.05.15, v5.0.1
 
 feature:
