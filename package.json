@@ -24,7 +24,7 @@
     "tildify": "^2.0.0",
     "try-catch": "^2.0.0",
     "untildify": "^4.0.0",
-    "win32": "^3.0.0"
+    "win32": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^6.4.0",
