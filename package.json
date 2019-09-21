@@ -27,7 +27,7 @@
     "win32": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.9.0",
+    "eslint": "^6.4.0",
     "eslint-plugin-node": "^9.0.1"
   },
   "publishConfig": {
