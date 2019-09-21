@@ -5,7 +5,8 @@
   "description": "Create new processes, change directories, auto switch between spawn and exec",
   "homepage": "http://github.com/coderaiser/spawnify",
   "scripts": {
-    "lint": "eslint lib"
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,11 @@
   },
   "devDependencies": {
     "eslint": "^6.4.0",
-    "eslint-plugin-node": "^9.0.1"
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-putout": "^2.0.0",
+    "madrun": "^3.0.5",
+    "putout": "^6.1.0",
+    "supertape": "^1.2.3"
   },
   "publishConfig": {
     "access": "public"
