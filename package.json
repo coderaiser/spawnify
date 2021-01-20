@@ -18,7 +18,7 @@
     "spawnify": "bin/spawnify.js"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "dependencies": {
     "glob": "^7.1.0",
@@ -32,8 +32,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^6.11.1",
     "madrun": "^8.6.0",
-    "putout": "^13.7.1",
-    "supertape": "^4.8.0"
+    "putout": "^13.7.1"
   },
   "publishConfig": {
     "access": "public"
