@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": "^7.18.0",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-putout": "^3.2.1",
+    "eslint-plugin-putout": "^6.11.1",
     "madrun": "^8.6.0",
     "putout": "^13.7.1",
     "supertape": "^4.8.0"
