@@ -1,3 +1,15 @@
+2021.01.20, v7.0.0
+
+feature:
+- (spawnify) drop support of node < 14
+- (package) eslint-plugin-putout v6.11.1
+- (package) madrun v8.6.0
+- (package) putout v13.7.1
+- (package) supertape v4.8.0
+- (package) eslint v7.18.0
+- (package) win32 v5.0.1
+
+
 2020.02.25, v6.0.1
 
 feature:
