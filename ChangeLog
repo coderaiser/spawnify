@@ -1,3 +1,13 @@
+2021.01.27, v7.0.1
+
+fix:
+- (spawnify) unicodify do not returns a function
+
+feature:
+- (package) eslint-plugin-putout v7.0.0
+- (package) putout v14.0.0
+
+
 2021.01.20, v7.0.0
 
 feature:
