@@ -21,6 +21,7 @@
     "node": ">=14"
   },
   "dependencies": {
+    "fkill": "^8.0.1",
     "glob": "^7.1.0",
     "tildify": "^2.0.0",
     "try-catch": "^3.0.0",
