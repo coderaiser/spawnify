@@ -21,7 +21,7 @@
     "node": ">=16"
   },
   "dependencies": {
-    "glob": "^7.1.0",
+    "glob": "^10.3.3",
     "tildify": "^3.0.0",
     "try-catch": "^3.0.0",
     "untildify": "^5.0.0",
