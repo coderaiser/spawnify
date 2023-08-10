@@ -1,6 +1,7 @@
 {
   "name": "spawnify",
   "version": "7.0.2",
+  "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Create new processes, change directories, auto switch between spawn and exec",
   "homepage": "http://github.com/coderaiser/spawnify",
@@ -30,7 +31,6 @@
   "devDependencies": {
     "eslint": "^8.46.0",
     "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^19.0.4",
     "madrun": "^9.3.1",
     "putout": "^31.0.5"

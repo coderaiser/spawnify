@@ -24,4 +24,3 @@ if (!command) {
         spawn = null;
     });
 }
-

@@ -4,5 +4,7 @@ npm-debug.log
 
 *.swp
 
-.putoutcache
 .nyc_output
+.idea
+yarn-error.log
+coverage
