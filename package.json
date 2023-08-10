@@ -28,7 +28,7 @@
     "win32": "^5.1.12"
   },
   "devDependencies": {
-    "eslint": "^7.18.0",
+    "eslint": "^8.46.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^19.0.4",
     "madrun": "^8.6.0",
