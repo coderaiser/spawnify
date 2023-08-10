@@ -32,7 +32,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^7.0.0",
     "madrun": "^8.6.0",
-    "putout": "^14.0.0"
+    "putout": "^31.0.5"
   },
   "publishConfig": {
     "access": "public"
